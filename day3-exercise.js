@@ -98,7 +98,6 @@ type.
 // console.log(capitalizedString);
 // console.log(words);
 
-
 // //.7
 
 // let originalString = "hello";
@@ -140,9 +139,9 @@ type.
 
 // //.10
 
-let num1 = 42;
-let num2 = 27;
-let num3 = 18;
+// let num1 = 42;
+// let num2 = 27;
+// let num3 = 18;
 
 // if (num1 > num2) {
 //   let sort = num1;
@@ -189,16 +188,16 @@ let num3 = 18;
 
 // //.12
 
-const str = "An apple a day keeps the doctor away";
-const modifiedStr = "*";
-let result = "";
+// const str = "An apple a day keeps the doctor away";
+// const modifiedStr = "*";
+// let result = "";
 
-for (let i = 0; i < str.length; i++){
-  if (str[i] === 'a' || str[i] === "A") {
-    result += modifiedStr; // Append '*' character
-  } else {
-    result += str[i];
-  }
-}
+// for (let i = 0; i < str.length; i++){
+//   if (str[i] === 'a' || str[i] === "A") {
+//     result += modifiedStr; // Append '*' character
+//   } else {
+//     result += str[i];
+//   }
+// }
 
-console.log(result);
+// console.log(result);

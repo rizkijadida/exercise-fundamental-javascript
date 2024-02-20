@@ -1,19 +1,19 @@
 // // Exercise - Example
-// function createTriangle(height) {
-//   // mengontrol jumlah baris atau tinggi segitiga. Setiap iterasi dalam perulangan ini merepresentasikan satu baris dari segitiga.
-//   for (let i = 1; i <= height; i++) {
-//     // Saat variabel row diinisialisasi di dalam loop for, itu berarti variabel tersebut diinisialisasi ulang setiap kali iterasi dimulai.
-//     let row = "";
-//     // digunakan untuk mengontrol jumlah kolom atau lebar segitiga. Setiap iterasi dalam perulangan ini merepresentasikan satu kolom dari segitiga.
-//     for (let j = 1; j <= i; j++) {
-//       row += "* ";
-//       // console.log(row += "* ");
-//     }
-//     // menampilkan
-//     console.log(row);
-//   }
-// }
-// createTriangle(5);
+function createTriangle(height) {
+  // mengontrol jumlah baris atau tinggi segitiga. Setiap iterasi dalam perulangan ini merepresentasikan satu baris dari segitiga.
+  for (let i = 1; i <= height; i++) {
+    // Saat variabel row diinisialisasi di dalam loop for, itu berarti variabel tersebut diinisialisasi ulang setiap kali iterasi dimulai.
+    let row = "";
+    // digunakan untuk mengontrol jumlah kolom atau lebar segitiga. Setiap iterasi dalam perulangan ini merepresentasikan satu kolom dari segitiga.
+    for (let j = 1; j <= i; j++) {
+      row += "* ";
+      // console.log(row += "* ");
+    }
+    // menampilkan
+    console.log(row);
+  }
+}
+createTriangle(5);
 
 // // ===========================================================
 // function createNumberTriangle(height) {

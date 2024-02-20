@@ -42,19 +42,22 @@ type.
 
 // //.2
 
-// const palindrome = "madam";
-// let result = true;
-// let x = palindrome.length - 1;
+const palindrome = "madam";
+let start = 0;
+console.log(start);
+let end = palindrome.length - 1;
+console.log(end);
+let result = false;
+while (start < end) {
+  if (palindrome[start] !== palindrome[end]) {
+    result = false;
+  }
+  result = true;
+  start++;
+  end--;
+}
 
-// for (let i = 0; i < x; i++) {
-//   if (palindrome[i] != palindrome[x]) {
-//     result = false;
-//     break;
-//   }
-//   x--;
-// }
-
-// console.log(result === true ? "Palindrome cuy" : "Bukan palindrome");
+console.log(result === true ? "Palindrome cuy" : "Bukan palindrome");
 
 // //.3
 
